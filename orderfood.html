@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Food Ordering</title>
+  <link rel="shortcut icon" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" type="image/x-icon">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+   <h1>Online Food Ordering</h1>
+  </header>
+
+  <section>
+    <h2>Menu</h2>
+
+    <div class="menu-item">
+      <a href="Pizza.html"><span>Pizza</span></a>
+      <a href="addtocart.html"><button>Add to Cart</button></a>
+    </div>
+
+    <div class="menu-item">
+      <a href="Buger.html"><span>Burger</span></a>
+      <a href="addtocart1.html"><button>Add to Cart</button></a>
+    </div>
+
+    <div class="menu-item">
+      <a href="IceCream.html"><span>IceCream</span></a>
+      <a href="addtocart2.html"><button>Add to Cart</button></a>
+    </div>
+
+    <!-- Add more menu items as needed -->
+
+    <h2>Cart</h2>
+
+    <div id="cart-items">
+      <!-- Cart items will be displayed here -->
+    </div>
+
+    <button id="checkout-btn">Checkout</button>
+  </section>
+
+  <script>
+    // You can add JavaScript code for handling cart interactions here
+  </script>
+
+</body>
+</html>

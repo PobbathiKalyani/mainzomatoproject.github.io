@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e74c3c;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-image {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.content {
+    width: 35%;
+    text-align: left;
+}
+
+h1 {
+    color: #333;
+}
+
+options {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.input-group {
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="tel"] {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+span {
+    margin: 0 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+

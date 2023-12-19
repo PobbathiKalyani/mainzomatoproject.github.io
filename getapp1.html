@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Zomato Get App</title>
+    <link rel="shortcut icon" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" type="image/x-icon">
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <img src="https://static.vecteezy.com/system/resources/previews/020/336/201/original/zomato-logo-zomato-icon-free-free-vector.jpg" alt="Zomato Logo" class="logo">
+    </header>
+    
+    <main>
+        <section class="hero">
+            <img src="https://www.kindpng.com/picc/m/152-1521000_zomato-app-screens-hd-png-download.png" alt="Zomato App" width="100px"class="app-image">
+            <div class="content">
+                <h1>Get the Zomato App</h1>
+                <h3>We will send you a link, open it on your phone to download the app</h3>
+            </div>
+        </section>
+        
+        <section class="options">
+            <fieldset>
+                <legend>Options</legend>
+                <input type="radio" id="email" name="options">
+                <label for="email">Email</label>
+                <input type="radio" id="phone" name="options">
+                <label for="phone">Phone Number</label>
+            </fieldset>
+
+            <div class="input-group">
+                <input type="text" id="emailInput" placeholder="Email">
+                <span>Or</span>
+                <input type="tel" id="phoneInput" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+            </div>
+
+            <button id="getAppButton">Get App</button>
+        </section>
+    </main>
+
+</body>
+</html>
